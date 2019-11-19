@@ -10,17 +10,33 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
-        /* Make the image fully responsive */
-        .carousel-inner img {
-            
-            height: 50rem;
+        .card{
+            width: 18rem;
         }
     </style>
 </head>
 
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home 
+                    <span class="sr-only">(Página atual)</span>
+                </a>
+                <a class="nav-item nav-link" href="#demo">Comtainer</a>
+                <a class="nav-item nav-link" href="#jumbotrom">Jumbotrom</a>
+                <a class="nav-item nav-link disabled" href="#">Desativado</a>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
     <div class="container">
-
+        <!-- Carousel -->
         <div id="demo" class="carousel slide" data-ride="carousel">
 
             <!-- Indicators -->
@@ -31,7 +47,7 @@
             </ul>
 
             <!-- The slideshow -->
-            <div class="carousel-inner">
+            <div class="carousel-inner text-center">
                 <div class="carousel-item active">
                     <img src="img/01.jpg" alt="Los Angeles" class="img-fluid" >
                 </div>
@@ -51,8 +67,65 @@
                 <span class="carousel-control-next-icon"></span>
             </a>
         </div>
+        <!-- End of Carousel -->
+        <!-- Jumbotrom -->
+        <div id="jumbotrom" class="jumbotron jumbotron-fluid my-0">
+            <h1 class="display-4">Tem muito nego fortão</h1>
+            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum eum itaque consequatur quisquam facilis aspernatur?</p>
+        </div>
+        <!-- End of Jumbotrom -->
+        <!-- Grid -->
+        <div class="row bg-dark">
+            <div class="col-xl-12 col-lg-12 col-md-4 col-sm-4 col-4">
+                <h1 class="text-center">Lorem ipsum dolor sit amet consectetur.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt aliquid fugit voluptate sequi nesciunt dicta dolor itaque ea incidunt optio?</p>
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-4 col-sm-4 col-4">
+                <h1 class="text-center">Lorem ipsum dolor sit amet consectetur.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt aliquid fugit voluptate sequi nesciunt dicta dolor itaque ea incidunt optio?</p>
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-4 col-sm-4 col-4">
+                <h1 class="text-center">Lorem ipsum dolor sit amet consectetur.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt aliquid fugit voluptate sequi nesciunt dicta dolor itaque ea incidunt optio?</p>
+            </div>
+        </div>
+        <!-- end of Grid -->
+        <!-- card -->
+        <div class="row aligh-center">
+            <div>
+                <div class="card">
+                    <img class="card-img-top" src="img/001.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img class="card-img-top" src="img/002.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                    </div>
+                </div>
+            </div>
+                <div class="card">
+                    <img class="card-img-top" src="img/003.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                    </div>
+                </div>
+            <div>
+                <div class="card">
+                    <img class="card-img-top" src="img/004.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of card -->
     </div>
-
+    
 </body>
 
 </html>
