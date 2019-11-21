@@ -1,3 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
 
+/* 
+#594328 
+#BFA78A
+#F2DABD
+#F2F2F2
+#0D0D0D
+*/
+body{
+    background: #F2DABD;
+}
+/* Navbar */
+.navbar{
+    background: #BFA78A;
+}
+.nav-link{
+    color: #594328 !important;
+}
+.nav-link:hover{
+    color: #291111 !important;
+    font-weight: 500;
+}
+/* end of Navbar */
+.card{
+    width: 16rem;
+}
